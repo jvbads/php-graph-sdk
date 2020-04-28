@@ -30,7 +30,7 @@ class AccessTokenTest extends \PHPUnit_Framework_TestCase
 
     public function testAnAccessTokenCanBeReturnedAsAString()
     {
-        $accessToken = new AccessToken('foo_token');
+       // $accessToken = new AccessToken('foo_token');
 
         $this->assertEquals('foo_token', $accessToken->getValue());
         $this->assertEquals('foo_token', (string)$accessToken);
